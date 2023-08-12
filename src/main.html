@@ -1,0 +1,57 @@
+<div class="panel login-panel">
+  >
+  <div class="panel-heading">
+    <h1 class="panel-title">
+      Titre
+      <span class="version-num">Version 1.0.1</span>
+    </h1>
+  </div>
+  <div class="panel-body">
+    <form class="form-horizontal form-lg">
+      <div class="row">
+        <div class="form-group input-group-lg">
+          <div class="col-xs-8" [formGroup]="formGroup">
+            <input
+              type="text"
+              class="form-control input-lg"
+              formControlName="base"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <div class="col-xs-8">
+            <input
+              type="text"
+              class="form-control input-lg"
+              placeholder="Nouvelle valeur"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <div class="col-xs-8">
+            <input
+              type="text"
+              class="form-control input-lg"
+              placeholder="Evolution"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group">
+          <div class="col-xs-8 col">
+            <input
+              type="submit"
+              value="calculer"
+              class="btn btn-lg btn-primary"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
